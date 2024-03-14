@@ -51,26 +51,8 @@ Este es un proyecto muy simple donde utilizo laravel usando llamando apis extern
    php artisan key:generate
    ```
 
-6. Configura los detalles de conexión a tu servidor de base de datos en el archivo `.env`. Por ejemplo:
 
-   ```
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=nombre_de_tu_base_de_datos
-   DB_USERNAME=tu_usuario
-   DB_PASSWORD=tu_contraseña
-   ```
-
-7. Ejecuta las migraciones para crear las tablas en la base de datos:
-
-   ```
-   php artisan migrate
-   ```
-
-8. Opcionalmente, puedes ejecutar el comando `php artisan db:seed` para agregar datos predefinidos en el proyecto a la base de datos.
-
-9. Inicia el servidor de desarrollo de Laravel:
+6. Inicia el servidor de desarrollo de Laravel:
 
    ```
    php artisan serve
